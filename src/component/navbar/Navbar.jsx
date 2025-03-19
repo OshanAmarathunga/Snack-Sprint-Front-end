@@ -3,6 +3,7 @@ import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import { pink } from "@mui/material/colors";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import "./Nanbar.css"
 
 export const Navbar = () => {
   return (
@@ -26,7 +27,7 @@ export const Navbar = () => {
         </div>
         <div>
           <IconButton>
-            <Badge color="black" badgeContent={3}>
+            <Badge color="secondary" badgeContent={3}>
               <ShoppingCartIcon></ShoppingCartIcon>
             </Badge>
           </IconButton>
