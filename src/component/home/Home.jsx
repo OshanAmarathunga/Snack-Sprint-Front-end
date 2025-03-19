@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Home.css"
+import MultiitemCarousel from './MultiitemCarousel'
+
+
 const Home = () => {
   return (
     <div className=''>
@@ -15,6 +18,10 @@ const Home = () => {
 
             </div>
         </section>
+       <section className='p-10 lg:py-10 lg:px-20 '>
+        <p className='text-2xl font-semibold text-gray-400 py-3 pb-10'>Top Meals</p>
+            <MultiitemCarousel/>
+       </section>
     </div>
   )
 }
