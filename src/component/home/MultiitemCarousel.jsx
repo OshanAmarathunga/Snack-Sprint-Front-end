@@ -12,7 +12,7 @@ const settings={
     slidesToScroll:3,
     autoplay:true,
     autoplaySped:2000,
-    arrows:true
+    arrows:false
 };
 const MultiitemCarousel = () => {
   return (
@@ -22,7 +22,7 @@ const MultiitemCarousel = () => {
             <CarousalItem image={item.image} title={item.title}/>
             )}
         </Slider>
-    </div> 55:31
+    </div> 
   )
 }
 
